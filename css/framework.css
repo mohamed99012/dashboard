@@ -1,0 +1,258 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f49e0d;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+}
+/* Start Box */
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+/* End Box */
+/* Start Padding and Margin */
+.p-0 {
+  padding: 0;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.m-0 {
+  margin: 0;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-7 {
+  margin-top: 7px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 20px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-7 {
+  margin-right: 7px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-7 {
+  margin-left: 7px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+
+/* << Padding and Margin >>*/
+/* Start Color */
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-white {
+  background-color: white;
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-eee {
+  background-color: #eee;
+}
+.c-black {
+  color: black;
+}
+.c-gray {
+  color: var(--gray-color);
+}
+.c-white {
+  color: white;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+/* << Color >>*/
+/* Start Position */
+.p-relative {
+  position: relative;
+}
+/* << Position >>*/
+/*  Font and Text */
+.txt-c {
+  text-align: center;
+}
+.fs-11 {
+  font-size: 11px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-21 {
+  font-size: 21px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.bold {
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+/* << Font and Text >>*/
+/* Start width */
+.w-full {
+  width: 100%;
+}
+/* << width >>*/
+/* Star Border */
+.b-none {
+  border: none;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.border {
+  border: 1px solid black;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-eee {
+  border: 1px solid #eee;
+}
+/* << Border >> */
+/* Start widths */
+.w-fit {
+  width: fit-content;
+}
+/* << widths >>*/
+
+/*  Components */
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* << Components >>*/
+.overflow-h {
+  overflow: hidden;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* Mobile Screens */
+/* << Mobile Screens >>*/
+@media (max-width: 767px) {
+  .hide-in-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
